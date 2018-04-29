@@ -114,6 +114,7 @@ iframe {
 	margin: 60px auto;
 	border-bottom: 2px solid;
 	border-color: #ececec;
+	padding-bottom: 140px;
 
 }
 .left_block {
@@ -139,6 +140,12 @@ iframe {
 	margin: 0px 0 0 30px;
 
 
+}
+.right_block div:nth-child(1){
+	margin: 10px;
+}
+.right_block div:nth-child(2){
+	margin: 10px;
 }
 .left_block button {
 	width: 229px;
@@ -348,7 +355,7 @@ iframe {
 	border-radius: 5px;
 	font-size: 16px;
 	padding-left: 40px;
-	margin: 0 20px 0 20px ;
+	margin: 0 10px;
 }
 .submit {
 	width: 215px;
@@ -359,7 +366,7 @@ iframe {
 	display: block;
 	text-align: center;
 	line-height: 85px;
-	margin: 0 20px 0 20px ;
+	margin: 0 10px;
 }
 .sub_form1 {
 	display: flex;
@@ -369,25 +376,25 @@ iframe {
 }
 .name2 {
 	background-color: #e5e5e5;
-	width: 340px;
-	height: 70px;
+	width: 47.5%;
+	height: 14%;
 	border: none;
 	border-radius: 5px;
 	padding-left: 30px;
 }
 .email2 {
 	background-color: #e5e5e5;
-	width: 340px;
-	height: 70px;
+	width: 51.2%;
+	height: 14%;
 	border: none;
 	border-radius: 5px;
 	padding-left: 30px;
-	margin-left: 30px; 
+	
 }
 .textarea {
 	background-color: #e5e5e5;
-	width: 715px;
-	height: 250px;
+	width: 99.5%;
+	height: 50%;
 	border: none;
 	border-radius: 5px;
 	padding-left: 20px;
@@ -399,8 +406,8 @@ iframe {
 	flex-wrap: wrap;
 }
 .button {
-	width: 717px;
-	height: 73px;
+	width: 100%;
+	height: 15%;
 	border: none;
 	border-radius: 5px;
 	background-color: #ff3b3b;
@@ -464,13 +471,13 @@ form {
 		margin: auto;
 	}
 	.left_box button {
-		margin: auto;
+		margin: 20px auto;
 	}
 	.left_box h1 {
 		font-size: 35px;
 		font-weight: 700;
 		text-transform: uppercase;
-		margin: 0 auto;
+		margin: 20px auto;
 	}
 	.right_box {
 		max-width: 600px;
@@ -522,6 +529,12 @@ form {
 	}
 	.contact_zone {
 		margin: 30px auto;
+	}
+	.video_right_box {
+		/*display: none;*/
+		width: 320px;
+   		height: 240px;
+}
 	}
 }
 @media screen and (max-width: 1331px){
